@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robinndev/Clean.Arch-Solid-.git"
+    "url": "git+https://github.com/robinndev/Clean.Arch-Solid-.git",
+    "start": "ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/robinndev/Clean.Arch-Solid-/issues"
   },
-  "homepage": "https://github.com/robinndev/Clean.Arch-Solid-#readme"
+  "homepage": "https://github.com/robinndev/Clean.Arch-Solid-#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
 }
